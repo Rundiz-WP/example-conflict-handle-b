@@ -1,0 +1,25 @@
+/*
+Asset version 1.
+*/
+
+
+.style_v1 {
+    background-color: orange;
+    color: blacok;
+}
+
+.text_underline {
+    text-decoration: underline;
+}
+
+
+@keyframes blink-red {
+    0% { background-color: red; }
+    50% { background-color: transparent; }
+    100% { background-color: red; }
+}
+
+
+.blinking_bg {
+    animation: blink-red 1s infinite;
+}
